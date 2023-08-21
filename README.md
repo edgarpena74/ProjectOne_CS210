@@ -1,36 +1,35 @@
-# README: Clock Project Reflection
+# Clock Project Reflection
 
 ---
 
-## Project Overview
+## Overview
 
-Within this C++ project, I embarked on the creation of a simulated clock. Its primary objective is to showcase the distinction and conversion between 12-hour and 24-hour time formats. For someone newly acquainted with the intricacies of programming, this project was a first step into real-time manipulations and clock logic.
+I made a C++ program that can show time in both the regular 12-hour format and the military 24-hour style.
 
-## Strengths
+## What I'm Proud Of
 
-- **Structured Approach**: My decision to encapsulate the logic of the clock within the `Clock` class allowed for a cleaner and more organized codebase. I believe this is foundational in C++ and object-oriented programming.
-- **User Interface**: I developed an interactive menu for the user, making the program more dynamic and user-friendly.
+- I built a `Clock` class that keeps everything tidy.
+- I added a menu so users can interact with the clock.
 
-## Areas of Improvement
+## Things To Fix
 
-- **Boundary Handling**: While I addressed overflow during time display, it might be more efficient to manage these overflows immediately after time additions.
-- **Input Validation**: The program would be more robust with comprehensive input validation to prevent unexpected behaviors.
-- **Code Duplication**: The duplicated `Clock` class definitions need rectification. This was an oversight, but I understand the importance of clean code to prevent confusion.
+- It'd be good to check if users put in something unexpected.
 
-## Challenges
+## Tough Spots
 
-Grasping the logic behind the AM/PM designations in the 12-hour format was initially perplexing. By methodically breaking down the problem and referencing trusted C++ documentation, I surmounted this challenge. StackOverflow was another valuable resource during this process, and I am progressively integrating such platforms into my study routine.
+Getting the AM/PM stuff right for the 12-hour clock took some time. I read up on some C++ tips and asked for help on StackOverflow.
 
-## Skills Acquired
+## New Things I Learned
 
-Learning to design a class in C++, handling user input, and managing time calculations have all been pivotal. I foresee these skills being applicable to numerous future projects in C++ and possibly other languages as well.
+- Practiced creating classes
+- How to show and adjust time correctly.
+- Dealing with choices users make.
 
-## Ensuring Quality Code
+## How I Kept Things Clear
 
-- **Maintainability**: I strived for clarity by segmenting distinct functionalities into their respective functions, facilitating any future modifications.
-- **Readability**: Through consistent commenting and logical naming conventions, I aimed for the code to be accessible, not just to myself but to any other learner or reviewer.
-- **Adaptability**: The class structure of the clock lends itself well to future extensions or modifications, underlining the importance of forward-thinking in code design.
+- I made sure each part of the code has its own job. It's easier to understand and change later.
+- I used comments in the code so others can follow along.
+- I set things up so that, if I want, I can add more features in the future.
 
----
 
-Delving into this project has been instrumental in broadening my understanding of C++ programming. The nuances and intricacies encountered have only deepened my appreciation for the language and the broader realm of software development.
+
